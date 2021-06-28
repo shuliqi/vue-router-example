@@ -2,7 +2,7 @@
   requireDetail 组件
   <br>
   requireId: {{ requireId }}
-    <router-link to='/requireDetail/678?name=shuliqi&age=12#sex'>跳转到678的需求详情</router-link> / 
+    <router-link to='/requireDetail/哈哈'>跳转到新的需求详情， 注意 requireId 不是数字哦</router-link> / 
 </template>
 
 <script>

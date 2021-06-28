@@ -13,7 +13,7 @@ const routes = [
   // 每一条 route
   {
     // 路径参数用冒号表示
-    path: "/requireDetail/:requireId",
+    path: "/requireDetail/:requireId(\\d+)",
     component:  requireDetail
   }
 ];
